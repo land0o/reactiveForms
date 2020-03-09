@@ -1,0 +1,22 @@
+
+.card {
+    background-color: burlywood;
+    opacity: .9;
+}
+input, select{
+    background-color: chocolate;
+}
+::placeholder{
+    color: darkblue;
+}
+label, h1, option{
+    color: purple;
+}
+.box{
+    padding-top: 2px;
+    border: 2px solid goldenrod;
+    background-color: burlywood;
+    opacity: .9;
+    color: purple;
+    margin: 5px;
+}

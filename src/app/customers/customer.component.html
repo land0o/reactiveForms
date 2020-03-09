@@ -1,6 +1,12 @@
+<div class="box">
+  <br>Dirty: {{ signupForm.dirty }}
+  <br>Touched: {{ signupForm.touched }}
+  <br>Valid: {{ signupForm.valid }}
+  <br>Value: {{ signupForm.value | json }}
+  </div>
 <div class="card">
   <div class="card-header">
-    Sign Up!
+    <h1>Sign Up!</h1>
   </div>
 
   <div class="card-body">
@@ -215,7 +221,3 @@
     </form>
   </div>
 </div>
-<br>Dirty: {{ signupForm.dirty }}
-<br>Touched: {{ signupForm.touched }}
-<br>Valid: {{ signupForm.valid }}
-<br>Value: {{ signupForm.value | json }}

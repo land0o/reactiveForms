@@ -8,3 +8,12 @@ div.card-header {
 div.card {
   margin-top: 10px
 }
+body{
+  background-image: url('https://media.giphy.com/media/d886PAWdPnzLqQ3Nig/source.gif');
+  background-repeat: no-repeat;
+  /* background-position: top; */
+  background-position: right top;
+  background-size: cover;
+  overflow-x: visible;
+  background-attachment: scroll;
+}
